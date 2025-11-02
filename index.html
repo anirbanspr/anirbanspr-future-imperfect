@@ -6,21 +6,91 @@
 -->
 <html>
 	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142561550-1"></script>
+		<!-- Google Analytics 4 -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-142561550"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
-			gtag('config', 'UA-142561550-1');
-		</script>	
-	
-		<title>Pensive Reflections</title>
+			gtag('config', 'G-142561550');
+		</script>
+
+		<title>Pensive Reflections - Anirban Samanta</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<meta name="description" content="Anirban Samanta - PhD candidate researching photonics and optical networking at UC Davis. Explore research interests, publications, and personal reflections.">
+		<meta name="keywords" content="photonics, optical networking, PhD, UC Davis, research, Anirban Samanta">
+		<meta name="author" content="Anirban Samanta">
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://www.anirbanspr.com/">
+		<meta property="og:title" content="Pensive Reflections - Anirban Samanta">
+		<meta property="og:description" content="PhD candidate researching photonics and optical networking at UC Davis. Dabbler in Photons and Electrons, Traveller of Worlds.">
+		<meta property="og:image" content="https://www.anirbanspr.com/images/profile_cropped.webp">
+
+		<!-- Twitter Card -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" content="https://www.anirbanspr.com/">
+		<meta name="twitter:title" content="Pensive Reflections - Anirban Samanta">
+		<meta name="twitter:description" content="PhD candidate researching photonics and optical networking at UC Davis. Dabbler in Photons and Electrons, Traveller of Worlds.">
+		<meta name="twitter:image" content="https://www.anirbanspr.com/images/profile_cropped.webp">
+		<meta name="twitter:site" content="@gandalfsucks">
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/webp" href="images/avatar.webp">
+
+		<!-- Preconnect to Google Fonts for faster loading -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+		<!-- Load Google Fonts asynchronously -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900" media="print" onload="this.media='all'">
+
+		<!-- Minified CSS -->
+		<link rel="stylesheet" href="assets/css/main.min.css" />
+
+		<!-- Schema.org Structured Data -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"name": "Anirban Samanta",
+			"url": "https://www.anirbanspr.com",
+			"image": "https://www.anirbanspr.com/images/profile_cropped.webp",
+			"jobTitle": "PhD Candidate",
+			"worksFor": {
+				"@type": "Organization",
+				"name": "University of California, Davis",
+				"url": "https://www.ucdavis.edu/"
+			},
+			"alumniOf": [
+				{
+					"@type": "Organization",
+					"name": "University of California, Irvine"
+				},
+				{
+					"@type": "Organization",
+					"name": "Birla Institute of Technology - Mesra"
+				}
+			],
+			"knowsAbout": ["Photonics", "Optical Networking", "Silicon Photonics", "Computing Systems"],
+			"sameAs": [
+				"https://twitter.com/gandalfsucks",
+				"https://www.facebook.com/anirban.pro",
+				"https://www.instagram.com/anirban_sam/",
+				"https://www.linkedin.com/in/anirbansamanta/",
+				"https://scholar.google.com/citations?user=KciH3qIAAAAJ&hl=en",
+				"https://anirban1988.wordpress.com/"
+			],
+			"email": "asamanta@ucdavis.edu"
+		}
+		</script>
 	</head>
 	<body class="is-preload">
+
+		<!-- Skip to main content link for accessibility -->
+		<a href="#main" class="skip-to-content" style="position: absolute; left: -9999px; z-index: 999;">Skip to main content</a>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -28,7 +98,7 @@
 				<!-- Header -->
 					<header id="header">
 						<h1><a href="index.html">Pensive Reflections</a></h1>
-						<nav class="links">
+						<nav class="links" aria-label="Main navigation">
 							<ul>
 								<li><a href="index.html">Home</a></li>
 								<li><a href="pages/research.html">Research Interests</a></li>
@@ -38,7 +108,7 @@
 								<!--<li><a href="pages/contact.html">Contact</a></li>-->
 							</ul>
 						</nav>
-						<nav class="main">
+						<nav class="main" aria-label="Mobile menu toggle">
 							<ul>
 								<!--<li class="search">
 									<a class="fa-search" href="#search">Search</a>
@@ -47,7 +117,7 @@
 									</form>
 								</li>-->
 								<li class="menu">
-									<a class="fa-bars" href="#menu">Menu</a>
+									<a class="fa-bars" href="#menu" aria-label="Open mobile menu">Menu</a>
 								</li>
 							</ul>
 						</nav>
@@ -107,10 +177,10 @@
 									</div>
 									<div class="meta">
 										<time class="published" datetime="2024-02-26">February 26, 2024</time>
-										<a href="#" class="author"><span class="name">Anirban Samanta</span><img src="images/avatar.png" alt="" /></a>
+										<a href="pages/about.html" class="author"><span class="name">Anirban Samanta</span><img src="images/avatar.webp" alt="Anirban Samanta avatar" /></a>
 									</div>
 								</header>
-								<a href="single.html" class="image featured"><img src="images/C360_2012-12-27-11-31-51.jpg" alt="" /></a>
+								<a href="posts/2024_feb_26.html" class="image featured"><img src="images/C360_2012-12-27-11-31-51.webp" alt="Graduate school journey - First arrival in California" /></a>
 								<p style="text-align:justify">It was September 16, 2012 when I first landed at LAX and made my way to Irvine, CA that I first got the butterflies. I had been away from home before, but it was there in the tortuously long 2 hour rideshare from Los Angeles to Irvine that the realization hit me that I was some 14000 kilometers away from the world that I had grown up in. I had already made some friends on the flight over, having met up with some fellow graduate students while still at the Mumbai airport, but for the first time in my life I felt a bit alone and a bit scared.</p>
 								<footer>
 									<ul class="actions">
@@ -129,7 +199,7 @@
 
 						<!-- Intro -->
 							<section id="intro">
-								<a href="#" class="logo"><img src="images/logo_AS.png" alt="" /></a>
+								<a href="index.html" class="logo"><img src="images/logo_AS.webp" alt="Anirban Samanta - AS Logo" /></a>
 								<header>
 									<h2>Anirban Samanta</h2>
 									<p>Dabbler in Photons and Electrons</p>
@@ -143,7 +213,7 @@
 
 									<!- - Profile Photo - ->
 										<article class="mini-post">
-											<a href="pages/about.html" class="image"><img src="images/profile_cropped.jpg" alt="" /></a>
+											<a href="pages/about.html" class="image"><img src="images/profile_cropped.webp" alt="Anirban Samanta profile photo" /></a>
 										</article>
 								</div>
 							</section>
@@ -188,19 +258,16 @@
 									<li class="icon solid fa-envelope"><a href="mailto:anirban.pro@gmail.com?subject=RE:Website%20Contact">      anirban [DOT] pro [AT] gmail [DOT] com</a></li>
 								</ul>
 								<p class="copyright">&copy; Anirban Samanta. All Rights Reserved. </p>
-								<p class="copyright">Design: Future Imperfect by <a href="http://html5up.net">HTML5 UP</a>.</p>
+								<p class="copyright">Design: Future Imperfect by <a href="https://html5up.net" rel="noopener noreferrer" target="_blank">HTML5 UP</a>.</p>
 							</section>
 
 					</section>
 
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<!-- Scripts - Vanilla JavaScript (No jQuery! 90KB saved) -->
+			<script src="assets/js/browser.min.js" defer></script>
+			<script src="assets/js/main-vanilla.min.js" defer></script>
 
 	</body>
 </html>

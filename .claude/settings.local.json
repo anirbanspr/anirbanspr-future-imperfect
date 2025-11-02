@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp:*)",
+      "Bash(npx clean-css-cli:*)",
+      "Bash(temp.css)",
+      "Bash(npx terser:*)",
+      "Bash(cat:*)",
+      "Bash(awk:*)",
+      "Bash(echo:*)",
+      "Bash(for file in index.html pages/*.html posts/*.html)",
+      "Bash(do echo -n \"Checking $file... \")",
+      "Bash(if grep -q \"</html>\" \"$file\")",
+      "Bash(then echo \"OK\")",
+      "Bash(else echo \"FAILED\")",
+      "Bash(fi)",
+      "Bash(done)",
+      "Bash(index.html pages/*.html posts/*.html)",
+      "Bash(for file in pages/*.html posts/*.html)",
+      "Bash(do)",
+      "Bash(if ! grep -q \"Google Analytics\" \"$file\")",
+      "Bash(then)",
+      "Bash(if [ \"$file\" != \"pages/gallery.html\" ])",
+      "Bash(do echo \"=== $file ===\")",
+      "Bash(while read file)",
+      "Bash(do echo '=== $file ===')"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

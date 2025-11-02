@@ -1,0 +1,16 @@
+# robots.txt for www.anirbanspr.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.anirbanspr.com/sitemap.xml
+
+# Allow search engines to crawl all pages
+Allow: /pages/
+Allow: /posts/
+Allow: /images/
+Allow: /assets/
+
+# Disallow backup files
+Disallow: *.backup$

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.anirbanspr.com/</loc>
+    <lastmod>2024-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.anirbanspr.com/images/profile_cropped.webp</image:loc>
+      <image:title>Anirban Samanta Profile Photo</image:title>
+    </image:image>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://www.anirbanspr.com/pages/about.html</loc>
+    <lastmod>2024-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.anirbanspr.com/images/about.webp</image:loc>
+      <image:title>About Anirban Samanta</image:title>
+    </image:image>
+  </url>
+
+  <!-- Research Interests -->
+  <url>
+    <loc>https://www.anirbanspr.com/pages/research.html</loc>
+    <lastmod>2024-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.anirbanspr.com/images/research_banner.webp</image:loc>
+      <image:title>Research Interests</image:title>
+    </image:image>
+  </url>
+
+  <!-- Publications -->
+  <url>
+    <loc>https://www.anirbanspr.com/pages/publications.html</loc>
+    <lastmod>2024-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Gallery -->
+  <url>
+    <loc>https://www.anirbanspr.com/pages/gallery.html</loc>
+    <lastmod>2024-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://www.anirbanspr.com/pages/contact.html</loc>
+    <lastmod>2024-11-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog Post: Opportunities, Beginnings and Endings -->
+  <url>
+    <loc>https://www.anirbanspr.com/posts/2024_feb_26.html</loc>
+    <lastmod>2024-02-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.anirbanspr.com/images/C360_2012-12-27-11-31-51.webp</image:loc>
+      <image:title>Graduate School Journey</image:title>
+    </image:image>
+  </url>
+
+</urlset>
